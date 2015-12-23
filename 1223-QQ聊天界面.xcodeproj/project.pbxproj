@@ -15,6 +15,13 @@
 		0D10643A1C2A52F8009ABE24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1064381C2A52F8009ABE24 /* LaunchScreen.storyboard */; };
 		0D1064451C2A52F8009ABE24 /* _223_QQ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1064441C2A52F8009ABE24 /* _223_QQ____Tests.m */; };
 		0D1064501C2A52F8009ABE24 /* _223_QQ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10644F1C2A52F8009ABE24 /* _223_QQ____UITests.m */; };
+		0D10645E1C2A5769009ABE24 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D10645D1C2A5769009ABE24 /* messages.plist */; };
+		0D1064661C2A5B74009ABE24 /* KJMessageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1064651C2A5B74009ABE24 /* KJMessageFrame.m */; };
+		0D1064691C2A5BD5009ABE24 /* KJMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1064681C2A5BD5009ABE24 /* KJMessage.m */; };
+		0D10646C1C2A68C5009ABE24 /* KJMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10646B1C2A68C5009ABE24 /* KJMessageCell.m */; };
+		0D10646F1C2A8675009ABE24 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10646E1C2A8675009ABE24 /* UIImage+Extension.m */; };
+		0D1064721C2ACCBA009ABE24 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1064711C2ACCBA009ABE24 /* NSString+Extension.m */; };
+		0D1064761C2AD571009ABE24 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1064751C2AD571009ABE24 /* NSArray+Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,19 @@
 		0D10644B1C2A52F8009ABE24 /* 1223-QQ聊天界面UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1223-QQ聊天界面UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D10644F1C2A52F8009ABE24 /* _223_QQ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_223_QQ____UITests.m"; sourceTree = "<group>"; };
 		0D1064511C2A52F8009ABE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D10645D1C2A5769009ABE24 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		0D1064641C2A5B74009ABE24 /* KJMessageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJMessageFrame.h; sourceTree = "<group>"; };
+		0D1064651C2A5B74009ABE24 /* KJMessageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJMessageFrame.m; sourceTree = "<group>"; };
+		0D1064671C2A5BD5009ABE24 /* KJMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJMessage.h; sourceTree = "<group>"; };
+		0D1064681C2A5BD5009ABE24 /* KJMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJMessage.m; sourceTree = "<group>"; };
+		0D10646A1C2A68C5009ABE24 /* KJMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJMessageCell.h; sourceTree = "<group>"; };
+		0D10646B1C2A68C5009ABE24 /* KJMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJMessageCell.m; sourceTree = "<group>"; };
+		0D10646D1C2A8675009ABE24 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		0D10646E1C2A8675009ABE24 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		0D1064701C2ACCBA009ABE24 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		0D1064711C2ACCBA009ABE24 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		0D1064741C2AD571009ABE24 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		0D1064751C2AD571009ABE24 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +121,10 @@
 		0D1064291C2A52F8009ABE24 /* 1223-QQ聊天界面 */ = {
 			isa = PBXGroup;
 			children = (
-				0D10642D1C2A52F8009ABE24 /* AppDelegate.h */,
-				0D10642E1C2A52F8009ABE24 /* AppDelegate.m */,
-				0D1064301C2A52F8009ABE24 /* ViewController.h */,
-				0D1064311C2A52F8009ABE24 /* ViewController.m */,
-				0D1064331C2A52F8009ABE24 /* Main.storyboard */,
-				0D1064361C2A52F8009ABE24 /* Assets.xcassets */,
-				0D1064381C2A52F8009ABE24 /* LaunchScreen.storyboard */,
-				0D10643B1C2A52F8009ABE24 /* Info.plist */,
+				0D1064631C2A5AB1009ABE24 /* Models */,
+				0D10645F1C2A5A7B009ABE24 /* Views */,
+				0D1064621C2A5A9E009ABE24 /* Others */,
+				0D1064611C2A5A93009ABE24 /* Controllers */,
 				0D10642A1C2A52F8009ABE24 /* Supporting Files */,
 			);
 			path = "1223-QQ聊天界面";
@@ -117,6 +133,11 @@
 		0D10642A1C2A52F8009ABE24 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0D1064331C2A52F8009ABE24 /* Main.storyboard */,
+				0D1064361C2A52F8009ABE24 /* Assets.xcassets */,
+				0D1064381C2A52F8009ABE24 /* LaunchScreen.storyboard */,
+				0D10643B1C2A52F8009ABE24 /* Info.plist */,
+				0D10645D1C2A5769009ABE24 /* messages.plist */,
 				0D10642B1C2A52F8009ABE24 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +159,66 @@
 				0D1064511C2A52F8009ABE24 /* Info.plist */,
 			);
 			path = "1223-QQ聊天界面UITests";
+			sourceTree = "<group>";
+		};
+		0D10645F1C2A5A7B009ABE24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D10646A1C2A68C5009ABE24 /* KJMessageCell.h */,
+				0D10646B1C2A68C5009ABE24 /* KJMessageCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0D1064611C2A5A93009ABE24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D1064301C2A52F8009ABE24 /* ViewController.h */,
+				0D1064311C2A52F8009ABE24 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0D1064621C2A5A9E009ABE24 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0D10642D1C2A52F8009ABE24 /* AppDelegate.h */,
+				0D10642E1C2A52F8009ABE24 /* AppDelegate.m */,
+				0D1064771C2AD585009ABE24 /* Category */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		0D1064631C2A5AB1009ABE24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D1064641C2A5B74009ABE24 /* KJMessageFrame.h */,
+				0D1064651C2A5B74009ABE24 /* KJMessageFrame.m */,
+				0D1064671C2A5BD5009ABE24 /* KJMessage.h */,
+				0D1064681C2A5BD5009ABE24 /* KJMessage.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0D1064731C2AD571009ABE24 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				0D1064741C2AD571009ABE24 /* NSArray+Log.h */,
+				0D1064751C2AD571009ABE24 /* NSArray+Log.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		0D1064771C2AD585009ABE24 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0D1064731C2AD571009ABE24 /* Log */,
+				0D10646D1C2A8675009ABE24 /* UIImage+Extension.h */,
+				0D10646E1C2A8675009ABE24 /* UIImage+Extension.m */,
+				0D1064701C2ACCBA009ABE24 /* NSString+Extension.h */,
+				0D1064711C2ACCBA009ABE24 /* NSString+Extension.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +288,7 @@
 				TargetAttributes = {
 					0D1064261C2A52F8009ABE24 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BAT5Z3KZ7X;
 					};
 					0D10643F1C2A52F8009ABE24 = {
 						CreatedOnToolsVersion = 7.2;
@@ -243,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D10645E1C2A5769009ABE24 /* messages.plist in Resources */,
 				0D10643A1C2A52F8009ABE24 /* LaunchScreen.storyboard in Resources */,
 				0D1064371C2A52F8009ABE24 /* Assets.xcassets in Resources */,
 				0D1064351C2A52F8009ABE24 /* Main.storyboard in Resources */,
@@ -270,9 +353,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D1064761C2AD571009ABE24 /* NSArray+Log.m in Sources */,
+				0D1064691C2A5BD5009ABE24 /* KJMessage.m in Sources */,
+				0D10646F1C2A8675009ABE24 /* UIImage+Extension.m in Sources */,
+				0D1064661C2A5B74009ABE24 /* KJMessageFrame.m in Sources */,
 				0D1064321C2A52F8009ABE24 /* ViewController.m in Sources */,
 				0D10642F1C2A52F8009ABE24 /* AppDelegate.m in Sources */,
+				0D10646C1C2A68C5009ABE24 /* KJMessageCell.m in Sources */,
 				0D10642C1C2A52F8009ABE24 /* main.m in Sources */,
+				0D1064721C2ACCBA009ABE24 /* NSString+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +500,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "1223-QQ聊天界面/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.khj.-223-QQ----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +514,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "1223-QQ聊天界面/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.khj.-223-QQ----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
